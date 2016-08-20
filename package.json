@@ -1,0 +1,25 @@
+{
+  "name": "d-js",
+  "version": "1.0.0",
+  "description": "JavaScript Data Structures",
+  "main": "src/d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperentalaslioglu/d-js.git"
+  },
+  "keywords": [
+    "data",
+    "structures",
+    "in",
+    "javascript"
+  ],
+  "author": "Alperen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alperentalaslioglu/d-js/issues"
+  },
+  "homepage": "https://github.com/alperentalaslioglu/d-js#readme"
+}
