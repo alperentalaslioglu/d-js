@@ -5,19 +5,20 @@ var Stack = function () {
 };
 
 Stack.prototype.push = function (item) {
-
+    this.stack.push(item);
 };
 
 Stack.prototype.pop = function () {
-
+    var top = this.stack.pop();
+    return top;
 };
 
 Stack.prototype.peek = function () {
-
+    return this.stack[stack.length - 1];
 }
 
 Stack.prototype.isEmpty = function () {
-    console.log("alperen");
+    return this.stack.length == 0;
 }
 
 Stack.prototype.displayStack = function () {
