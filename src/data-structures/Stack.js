@@ -9,8 +9,7 @@ Stack.prototype.push = function (item) {
 };
 
 Stack.prototype.pop = function () {
-    var top = this.stack.pop();
-    return top;
+    return this.stack.pop();;
 };
 
 Stack.prototype.peek = function () {
@@ -22,7 +21,6 @@ Stack.prototype.isEmpty = function () {
 }
 
 Stack.prototype.displayStack = function () {
-
 };
 
 module.exports = Stack;
