@@ -10,7 +10,7 @@ Queue.prototype.dequeue = function(){}
 
 Queue.prototype.getQueueFrontItem = function(){}
 
-Queue.prototype.getQueueEndItem = function(){}
+Queue.prototype.getQueueBackItem = function(){}
 
 
 module.exports = Queue;
