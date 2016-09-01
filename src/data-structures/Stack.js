@@ -9,7 +9,7 @@ Stack.prototype.push = function (item) {
 };
 
 Stack.prototype.pop = function () {
-    return this.stack.pop();;
+    return this.stack.pop();
 };
 
 Stack.prototype.peek = function () {
