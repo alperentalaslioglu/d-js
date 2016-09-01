@@ -12,11 +12,11 @@ Queue.prototype.dequeue = function(){
     this.queue.shift();
 }
 
-Queue.prototype.getQueueFrontItem = function(){
+Queue.prototype.getFrontItem = function(){
     this.queue[0];
 }
 
-Queue.prototype.getQueueBackItem = function(){
+Queue.prototype.getBackItem = function(){
     this.queue[queue.length - 1];
 }
 
