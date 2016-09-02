@@ -10,18 +10,26 @@ Queue.prototype.enqueue = function(item){
 
 Queue.prototype.dequeue = function(){
     if(this.queue.length > 0){
-        this.queue.shift();
+        return this.queue.shift();
     }else{
         console.log("Empty Queue!");   
     }
 }
 
 Queue.prototype.getFrontItem = function(){
-    this.queue[0];
+    if(this.queue.length > 0){
+        return this.queue[0];
+    }else{
+        console.log("Empty Queue!");   
+    }
 }
 
 Queue.prototype.getBackItem = function(){
-    this.queue[queue.length - 1];
+    if(this.queue.length > 0){
+        return this.queue[queue.length - 1];
+    }else{
+        console.log("Empty Queue!");   
+    }
 }
 
 
