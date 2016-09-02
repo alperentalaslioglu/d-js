@@ -9,7 +9,7 @@ Queue.prototype.enqueue = function(item){
 }
 
 Queue.prototype.dequeue = function(){
-    if(this.queue.length > 0){
+    if(!this.isEmpty()){
         return this.queue.shift();
     }else{
         console.log("Empty Queue!");   
@@ -17,7 +17,7 @@ Queue.prototype.dequeue = function(){
 }
 
 Queue.prototype.getFrontItem = function(){
-    if(this.queue.length > 0){
+    if(!this.isEmpty()){
         return this.queue[0];
     }else{
         console.log("Empty Queue!");   
@@ -25,11 +25,15 @@ Queue.prototype.getFrontItem = function(){
 }
 
 Queue.prototype.getBackItem = function(){
-    if(this.queue.length > 0){
+    if(!this.isEmpty()){
         return this.queue[queue.length - 1];
     }else{
         console.log("Empty Queue!");   
     }
+}
+
+Queue.prototype.isEmpty = function () {
+    return this.queue.length == 0;
 }
 
 
