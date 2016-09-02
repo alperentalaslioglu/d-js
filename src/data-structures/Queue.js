@@ -9,7 +9,11 @@ Queue.prototype.enqueue = function(item){
 }
 
 Queue.prototype.dequeue = function(){
-    this.queue.shift();
+    if(this.queue.length > 0){
+        this.queue.shift();
+    }else{
+        console.log("Empty Queue!");   
+    }
 }
 
 Queue.prototype.getFrontItem = function(){
