@@ -7,3 +7,8 @@ var Set = function () {
 Set.prototype.add = function (item) {
     this.set.push(item);
 };
+
+Set.prototype.clear = function(){
+    this.set.length = 0;
+}
+
