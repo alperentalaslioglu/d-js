@@ -1,14 +1,14 @@
 'use strict';
 
 var d = {
-    Stack: require('./data-structures/Stack.js'),
-    Queue: require('./data-structures/Queue.js'),
-    LinkedList: require('./data-structures/LinkedList.js'),
-    Set: require('./data-structures/Set.js'),
-    BinaryTree: require('./data-structures/BinaryTree.js'),
-    MinHeap: require('./data-structures/MinHeap.js'),
-    MaxHeap: require('./data-structures/MaxHeap.js'),
-    HashTable: require('./data-structures/HashTable.js')
+    _Stack: require('./data-structures/Stack.js'),
+    _Queue: require('./data-structures/Queue.js'),
+    _LinkedList: require('./data-structures/LinkedList.js'),
+    _Set: require('./data-structures/Set.js'),
+    _BinaryTree: require('./data-structures/BinaryTree.js'),
+    _MinHeap: require('./data-structures/MinHeap.js'),
+    _MaxHeap: require('./data-structures/MaxHeap.js'),
+    _HashTable: require('./data-structures/HashTable.js')
 };
 
 
