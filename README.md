@@ -6,7 +6,7 @@ d.js is now on development process.
 It will be released first version soon.
 
 Planning List of Data Structures 
-- [ ] Stack
+- [x] Stack
 - [ ] Queue
 - [ ] LinkedList
 - [ ] Set
