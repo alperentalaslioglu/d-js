@@ -1,6 +1,6 @@
 'use strict';
 
-var d = {
+module.exports = {
     _Stack: require('./data-structures/Stack.js'),
     _Queue: require('./data-structures/Queue.js'),
     _LinkedList: require('./data-structures/LinkedList.js'),
@@ -10,6 +10,3 @@ var d = {
     _MaxHeap: require('./data-structures/MaxHeap.js'),
     _HashTable: require('./data-structures/HashTable.js')
 };
-
-
-module.exports = d;
