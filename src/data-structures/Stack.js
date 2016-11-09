@@ -26,6 +26,10 @@ Stack.prototype.isEmpty = function () {
     return this.stack.length === 0;
 }
 
+Stack.prototype.getItemCount = function(){
+    return this.stack.lenth;
+}
+
 Stack.prototype.displayStack = function () {
     console.log('|');
     for (var i = this.stack.length - 1; i >= 0; i--) {
